@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import seaborn as sns
 from flask import Flask, request, jsonify, render_template
 import pickle
 import model
